@@ -4,11 +4,8 @@ namespace Daniloaldm\HrefLang\Block;
 use Magento\Framework\App\Request\Http;
 use Magento\Framework\View\Element\Template\Context;
 use Magento\Framework\View\Element\Template;
-use Magento\Store\Api\Data\StoreInterface;
 use Magento\Cms\Api\PageRepositoryInterface;
 use Magento\Cms\Model\ResourceModel\Page;
-use Magento\Store\Model\Group;
-use Magento\Store\Model\Website;
 use Magento\CmsUrlRewrite\Model\CmsPageUrlPathGenerator;
 
 class HrefLang extends Template
