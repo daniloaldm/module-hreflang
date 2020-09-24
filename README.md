@@ -16,8 +16,8 @@
 </p>
 
 ##  📌 Tecnologias utilizadas para desenvolver o módulo
-🍂 Magento 2 - Magento Community v2.3<br>
-🐳 Docker - Criação de ambientes isolados via container <br>
+🍂 [Magento 2 - Magento Community v2.3](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)<br>
+🐳 [Docker - Criação de ambientes isolados via container](https://github.com/daniloaldm/Magento2) <br>
 
 ## 🛠️ Ferramentas Utilizadas
 - [Phpstorm](https://www.jetbrains.com/pt-br/phpstorm/)
