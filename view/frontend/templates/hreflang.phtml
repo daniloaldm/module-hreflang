@@ -1,0 +1,7 @@
+<?php
+/** @var $block Daniloaldm\HrefLang\Block\HrefLang */
+if ($alternate = $block->getAlternate()) {
+    foreach ($alternate as $hrefLang => $url) {
+        echo "<link rel=\"alternate\" hreflang=\"$hrefLang\" href=\"$url\" />";
+    }
+}
