@@ -1,0 +1,26 @@
+{
+  "name": "daniloaldm/module-hreflang",
+  "description": "Identify Store Lang by Id",
+  "license": "MIT",
+  "require": {
+    "php": "^7.1.0",
+    "magento/product-community-edition": "^2.3"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Danilo Alexandrino",
+      "email": "danilo.alexandrinodm@gmail.com",
+      "homepage": "https://github.com/daniloaldm"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Daniloaldm\\HrefLang\\": ""
+    }
+  }
+}
