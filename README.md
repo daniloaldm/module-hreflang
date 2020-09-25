@@ -24,14 +24,30 @@
 
 ## 📕 Informações
 
+Tarefa #1 - Apenas backend
 
-## 🚀 Instalação
-✓ Instale via composer
+O cliente tem uma configuração multi-site com algumas páginas CMS que são compartilhadas
+entre diferentes sites. O problema que eles estão tendo é que isso está causando problemas de
+conteúdo duplicado e afetando seus rankings de SEO. Para resolver isso, criaremos um novo
+módulo que fará o seguinte:
+
+1. Adicione um bloco à head;
+2. O bloco deve ser capaz de identificar o id da página CMS e verificar se a página é usada em
+múltiplos views/stores loja;
+3. Nesse caso, deve adicionar uma meta tag hreflang ao cabeçalho;
+4. Se a metatag for exibida - ela deve exibir o idioma da loja, como “en-gb”, “en-us”,
+etc. As metatag devem ter valores específicos para cada país;
+5. Apoie o fato de que cada loja deve ter um par de idiomas diferente.
+
+## 🚀 Instalação via composer
+
 Execute o seguinte comando na pasta raiz do Magento 2:
 
+```
 composer require daniloaldm/module-hreflang:dev-master
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy -f
+```
 
 ## 👨‍💻 [](<[https://github.com/daniloaldm/module-hreflang](https://github.com/daniloaldm/module-hreflang)#autor>)Autor
 
