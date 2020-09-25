@@ -39,12 +39,25 @@ múltiplos views/stores loja;
 etc. As metatag devem ter valores específicos para cada país;
 5. Apoie o fato de que cada loja deve ter um par de idiomas diferente.
 
-## 🚀 Instalação via composer
+## 🚀 Instalação
 
 Execute o seguinte comando na pasta raiz do Magento 2:
 
+### Via composer
 ```
 composer require daniloaldm/module-hreflang:dev-master
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy -f
+```
+
+### Manual
+
+Caso a instalação via composer não funcione, na raiz do Magento 2 execute: 
+
+```
+mkdir app/code/Daniloaldm
+cd app/code/Daniloaldm
+git clone https://github.com/daniloaldm/module-hreflang.git HrefLang
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy -f
 ```
