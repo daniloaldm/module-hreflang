@@ -26,7 +26,12 @@
 
 
 ## 🚀 Instalação
+✓ Instale via composer
+Execute o seguinte comando na pasta raiz do Magento 2:
 
+composer require daniloaldm/module-hreflang:dev-master
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy -f
 
 ## 👨‍💻 [](<[https://github.com/daniloaldm/module-hreflang](https://github.com/daniloaldm/module-hreflang)#autor>)Autor
 
